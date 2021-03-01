@@ -4,27 +4,45 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Google Homepage</title>
+    <title>Google</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='main.js'></script>
 </head>
 
 <body>
-    <ul>
-        <li><a href="#">More</a></li>
-        <li><a href="#">Images</a></li>
-        <li><a href="#">Gmail</a></li>
-    </ul>
-    <div id="content">
-        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-            alt="Google's logo">
-        <form action="" class="form">
-            <div>
-                <input type="search" name="search" id="search" placeholder="Type something">
+    <header>
+        <nav id="nav">
+            <a class="top" href="#">Gmail</a>
+            <a class="top" href="#">Images</a>
+            <a class="top" href="#">dots</a>
+            <a class="image" href="#"></a>
+        </nav>
+    </header>
+    <main id="middle">
+        <div id="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                alt="A picture of Google's logo">
+        </div>
+        <div id="searchcontainer">
+            <input type="search" id="searchbar">
+        </div>
+        <div id="buttons">
+            <div class="button">
+                <button type="button"> Google Search</button>
             </div>
-        </form>
-    </div>
+            <div class="button">
+                <button type="button"> Im feeling lucky</button>
+            </div>
+        </div>
+        <div id="language">
+            <p>Google offered in: <a href="#">French</a></p>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Canada</p>
+    </footer>
 </body>
+
 
 </html>
